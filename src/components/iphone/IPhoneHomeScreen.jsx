@@ -1,6 +1,6 @@
 import React from "react";
 import dayjs from "dayjs";
-import { Sparkles, ArrowRight, ExternalLink } from "lucide-react";
+import { Sparkles, ArrowRight, ExternalLink, SquareUser } from "lucide-react";
 import useWindowStore from "../../store/window";
 import IPhoneStatusBar from "./IPhoneStatusBar";
 
@@ -159,7 +159,7 @@ const IPhoneHomeScreen = () => {
                 className="flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-xl bg-blue-500/80 hover:bg-blue-500 active:scale-95 transition-all text-xs font-semibold text-white shadow-sm"
               >
                 <span>Get in Touch</span>
-                <Sparkles className="size-3" />
+                <SquareUser className="size-3" />
               </button>
             </div>
           </div>
