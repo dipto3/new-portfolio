@@ -114,10 +114,10 @@ const IPhoneHomeScreen = () => {
           <div className="w-full bg-white/20 backdrop-blur-xl border border-white/25 rounded-3xl p-4 shadow-xl text-white">
             <div className="flex items-center justify-between text-[11px] font-semibold tracking-wider text-white/80 uppercase">
               <span>{dayjs().format("dddd, MMM D")}</span>
-              <span className="flex items-center gap-1 text-emerald-300">
+              {/* <span className="flex items-center gap-1 text-emerald-300">
                 <span className="size-1.5 rounded-full bg-emerald-400 animate-pulse" />
                 Online
-              </span>
+              </span> */}
             </div>
 
             <div className="flex items-center gap-3.5 mt-3">
